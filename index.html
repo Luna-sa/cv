@@ -157,8 +157,10 @@
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.18);
     transition: background 0.15s ease, transform 0.1s ease;
+    text-decoration: none;
+    display: inline-block;
   }
-  .download-btn:hover { background: #6a1620; }
+  .download-btn:hover { background: #6a1620; color: #fff; }
   .download-btn:active { transform: scale(0.97); }
 
   @media print {
@@ -173,7 +175,7 @@
 </style>
 </head>
 <body>
-<button class="download-btn no-print" onclick="window.print()" aria-label="Download as PDF" title="Print or save as PDF">↓ Download PDF</button>
+<a class="download-btn no-print" href="Anastasiia_Babanina_CV.pdf" download="Anastasiia_Babanina_CV.pdf" title="Download CV as PDF">↓ Download PDF</a>
 <div class="page">
 
 <header>
